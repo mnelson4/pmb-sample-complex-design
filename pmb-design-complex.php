@@ -7,7 +7,7 @@
 Plugin Name: Print My Blog - Sample Complex Design
 Plugin URI: https://github.com/mnelson4/pmb-sample-complex-design
 Description: A more complex sample design that supports dividing projects into parts, "volumes" and "anthologies", as well
-as front and back matter.
+as front and back matter. Adds a new section template of "Sideways Title" to this design, and to the Classic Print-Ready PDF too.
 Author: Mike Nelson
 Version: 1.0.0
 Author URI:
@@ -141,6 +141,20 @@ function pmbc_register_design() {
                 'project_defaults' => [
                     'institution' => 'Print My Blog'
                 ],
+            ];
+        }
+    );
+    pmb_register_section_template(
+        'sideways',
+        [
+            'complex_example',
+            'classic_print'
+        ],
+        function(){
+            return [
+                'title' => __('Sideways Title', 'print-my-blog'),
+                'fallback' => '',
+                'filepath' => PMBC_MAIN_DIR . '/design/templates/sideways.php'
             ];
         }
     );

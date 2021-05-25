@@ -80,12 +80,17 @@
         font-size:3em;
     }
     /* parts */
-    .pmb-volume-wrapper{
+    .pmb-part-wrapper{
         break-before:page;
     }
-    .pmb-anthology h1.pmb-title{
-        font-size:3em;
+    .pmb-part h1.pmb-title{
+        font-size:2em;
     }
+
+    .pmb-article h1.pmb-title{
+        font-size:1.2em;
+    }
+    
     /* miscellaneous */
     .pmb-posts span.pmb-footnote{
         float:footnote;

@@ -14,4 +14,4 @@
         </header><!-- .entry-header -->
 		<?php pmb_include_design_template( 'partials/content' ); ?>
     </article>
-<?php
+<?php // end of file. For some reason this comment was needed to prevent a fatal parsing error on dev.printmy.blog

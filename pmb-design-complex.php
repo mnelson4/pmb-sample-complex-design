@@ -144,18 +144,4 @@ function pmbc_register_design() {
             ];
         }
     );
-    pmb_register_section_template(
-        'sideways',
-        [
-            'complex_example',
-            'classic_print'
-        ],
-        function(){
-            return [
-                'title' => __('Sideways Title', 'print-my-blog'),
-                'fallback' => '',
-                'filepath' => PMBC_MAIN_DIR . '/design/templates/sideways.php'
-            ];
-        }
-    );
 }

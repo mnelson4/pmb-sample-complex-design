@@ -8,8 +8,9 @@ Plugin Name: Print My Blog - Sample Complex Design
 Plugin URI: https://github.com/mnelson4/pmb-sample-complex-design
 Description: A more complex sample design that supports dividing projects into parts, "volumes" and "anthologies", as well
 as front and back matter. Adds a new section template of "Sideways Title" to this design, and to the Classic Print-Ready PDF too.
+Works with PMB 3.21.0 and higher.
 Author: Mike Nelson
-Version: 1.0.0
+Version: 1.1.0
 Author URI:
 */
 
